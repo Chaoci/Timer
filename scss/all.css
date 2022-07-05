@@ -37,4 +37,30 @@ h1 {
   font-size: 6rem;
   line-height: 1;
   margin: 0 2rem;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .countdown-container {
+    display: flex;
+  }
+  .countdown-container .countdown-el {
+    text-align: center;
+  }
+  .countdown-container .countdown-el span {
+    font-size: 1.3rem;
+  }
+  .countdown-container .countdown-el .big-text {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 2rem;
+  }
 }/*# sourceMappingURL=all.css.map */
