@@ -5,7 +5,7 @@ const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
 
-const newYears= '29 OCT 202';
+const newYears= '29 OCT 2023';
 
 function countdown(){
     const newYearsDate = new Date(newYears); //時間先設定好預計要的日期，並注意格式
